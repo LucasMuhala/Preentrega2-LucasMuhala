@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    
+    background-color: rgb(196, 182, 156);
+    height: 100vh;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+article{
+    text-align: center;
+    margin: 20%;
+}
+#p2{ 
+    font-size: 4em;
+    font-weight: bolder;
+}
+header{display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+nav{display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: .5em;
+list-style: none;
+}
+nav a{ 
+    text-decoration: none;
+    color: black;
+    padding: .5em;
+    font-size: 1.5em;
+}
+#header2{
+    background-color: rgba(224, 171, 72, 0.651);
+    padding: 2em;
+    justify-content: center;
+    flex-direction: column;
+}
+#header2 p{ 
+    font-size: 1.5em;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+#section2 p{
+    padding: .5em;
+    font-size: 2.5em;
+text-align: center;
+}
+#main2{
+    background-color: rgb(196, 182, 156);
+}
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.article2{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 5%;
+    height: 20vh;
+    margin: 10%;
+}
+.article2 h3{
+    padding: .5em;
+    font-size: 1.5em;
+}
+.article2 p {
+    font-size: 1.1em;
+}
+#section4{
+    font-size: 1.4em;
+    margin-top: 3em;
+}
+#section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: .5em;
+}
+#section5 label{padding: .5em;
+}
+textarea{
+    padding: .5em;
+}
+#section6{
+display: flex;
+flex-direction: column;
+height: 10vh;
+}
